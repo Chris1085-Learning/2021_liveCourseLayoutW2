@@ -972,13 +972,20 @@ header {
   border-top: 1px solid #000;
 }
 
+.brand {
+  padding-bottom: 152px;
+}
+
 .brand .title {
   margin-bottom: 12px;
 }
 
-.photo-list .list-item {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.brand .content {
+  margin-bottom: 60px;
+}
+
+.photo-list {
+  gap: 24px;
 }
 
 footer .contact-info {

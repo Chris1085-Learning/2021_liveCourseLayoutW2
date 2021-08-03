@@ -154,6 +154,8 @@ header {
 }
 
 .brand {
+  padding-bottom: 152px;
+
   .title {
     @extend %section-title-font;
     margin-bottom: 12px;
@@ -161,13 +163,14 @@ header {
 
   .content {
     @extend %section-normal-font;
+    margin-bottom: 60px;
   }
 }
 
 .photo-list {
+  gap: 24px;
+
   .list-item {
-    padding-top: 20px;
-    padding-bottom: 20px;
   }
 }
 
