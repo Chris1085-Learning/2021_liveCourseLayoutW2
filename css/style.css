@@ -848,7 +848,7 @@ img {
   vertical-align: middle;
 }
 
-.header-container .title, .about .title, .brand .title, footer .title {
+.header-container .title, .about .title, .brand .title, .portfolio .title, footer .title {
   font-weight: 900;
   font-style: italic;
   font-size: 64px;
@@ -861,16 +861,16 @@ img {
   line-height: 36px;
 }
 
-.brand .content {
+.brand .content, .portfolio .content {
   font-size: 20px;
   line-height: 30px;
 }
 
 .container {
-  max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   width: 100%;
+  max-width: 1200px;
 }
 
 .bg-dark {
@@ -974,6 +974,8 @@ header {
 
 .brand {
   padding-bottom: 152px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .brand .title {
@@ -986,6 +988,38 @@ header {
 
 .photo-list {
   gap: 24px;
+}
+
+.photo-list .list-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio {
+  padding-bottom: 108px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.portfolio-cards {
+  gap: 12px;
+}
+
+.portfolio-cards .card-item {
+  margin-bottom: 36px;
+}
+
+.portfolio-cards .card-item img {
+  width: 100%;
+}
+
+.portfolio-cards .card-content {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.portfolio-cards .card-content .content-italic {
+  font-style: italic;
 }
 
 footer .contact-info {
